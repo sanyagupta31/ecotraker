@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>EcoTrack</title>
+</head>
+<body>
+    <header>
+        <h1>EcoTrack</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="3Dearth.html">3D Earth</a></li>
+            </ul>
+        </nav>
+        <button id="darkModeToggle">🌙</button>
+    </header>
+    <main>
+        <h2>Track Your Environmental Impact</h2>
+        <p>Join our community of eco-conscious individuals making a difference</p>
+        <button id="getStarted">Get Started <i class="fas fa-arrow-right"></i></button>
+        <button id="learnMore">Learn More</button>
+
+        <div class="cards">
+            <div class="card">
+                <i class="fas fa-leaf"></i>
+                <h3>Carbon Tracking</h3>
+                <p>Calculate and monitor your carbon footprint with our AI-powered tools</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-globe" style="color:rgb(49, 162, 233);"></i>
+                <h3>Global Impact</h3>
+                <p>Explore environmental events worldwide with our interactive 3D Earth</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-trophy" style="color:gold;"></i>
+                <h3>Rewards</h3>
+                <p>Earn points and compete on leaderboards for eco-friendly actions</p>
+            </div>
+        </div>
+
+    </main>
+    <h2>Carbon Offset Marketplace</h2>
+    <p>Invest in Verified environmental projects and offerset your carbon footprint</p>
+    <div class="cards">
+        <div class="card">
+           
+           <img src="amazon.jpg" id="img">
+            <h3> <i class="fas fa-tree"></i> Reforestation Project</h3>
+           <h5>Amazon Rainforest</h5>
+           <h5>Impact:500 tons Co2</h5>
+           <h3>$100</h3>
+           <button id="investnow">Invest Now</button>
+        </div>
+        <div class="card">
+            <img src="north sea.jpg" id="img">
+
+            <h3><i class="fas fa-wind" style="color:rgb(49, 162, 233);"></i> Wind Farm Initative</h3>
+           <h5>North Sea</h5>
+           <h5>Impact 1000 tons Co2</h5>
+           <h3>$250</h3>
+           <button id="investnow">Invest Now</button>
+        </div>
+        <div class="card">
+           <img src="solar.jpg" id="img" height="200" width="250">
+            <h3><i class="fas fa-sun" style="color:gold;"></i> Solar Power Plant</h3>
+            <h5>Mojave Desert </h5>
+            <h5>Impact 750 tons Co2</h5>
+            <h3>$180</h3>
+            <button id="investnow">Invest Now</button>
+        </div>
+        <div class="card">
+            <img src="ocean.jpg" id="img" height="200" width="250">
+             <h3><i class="fas fa-water" style="color:rgb(40, 171, 204);"></i> Ocean Cleanup</h3>
+             <h5>Pacific Ocean </h5>
+             <h5>Impact 300 tons Co2</h5>
+             <h3>$150</h3>
+             <button id="investnow">Invest Now</button>
+         </div>
+    </div>
+    <section id="features">
+        <h2>Our Features</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <i class="fas fa-leaf"></i>
+                <h3>Carbon Footprint Tracker</h3>
+                <p>Users can track their carbon footprint based on their activities.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-brain" style="color:coral;"></i>
+                <h3>AI-based Sustainability Plan</h3>
+                <p>Personalized ways to reduce emissions using AI.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-trophy" style="color:gold"></i>
+                <h3>Gamification & Leaderboards</h3>
+                <p>Daily challenges and points-based leaderboards to encourage sustainability.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-globe" style="color:aquamarine"></i>
+                <h3>Carbon Credit Marketplace</h3>
+                <p>Invest in carbon offset projects with blockchain transparency.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-globe-americas" style="color:aqua"></i>
+                <h3>3D Earth</h3>
+                <p>Live disaster updates on a 3D Earth model.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-cloud-sun" style="color: yellow;"></i>
+                <h3>Weather Updates</h3>
+                <p>Get real-time weather updates based on your location.</p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" role="contentinfo">
+        <p>&copy; 2025 EcoTrack. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Press</a></li>
+            </ul>
+        </nav>
+        <div id="social-media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
